@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptorylman | Crypto News & RylCoin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #f5f5f5;
+        }
+        .navbar {
+            background-color: #111;
+        }
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: linear-gradient(90deg, #131313, #1c1c1c);
+        }
+        .section-title {
+            margin-top: 60px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        a {
+            color: #0dcaf0;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Cryptorylman</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Welcome to Cryptorylman</h1>
+    <p>Your daily source for crypto news, education and RylCoin updates.</p>
+</section>
+
+<!-- NEWS SECTION -->
+<div id="news" class="container">
+    <h2 class="section-title">Latest Crypto News</h2>
+
+    <div class="card bg-dark mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Bitcoin hits major resistance — what’s next?</h5>
+        <p class="card-text">Analysis of recent BTC movements and key levels to watch. Updated daily.</p>
+      </div>
+    </div>
+
+    <div class="card bg-dark mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Top 5 altcoins to watch in 2025</h5>
+        <p class="card-text">A breakdown of promising upcoming projects and their potential.</p>
+      </div>
+    </div>
+</div>
+
+<!-- VIDEOS SECTION -->
+<div id="videos" class="container">
+    <h2 class="section-title">Latest Videos</h2>
+
+    <div class="ratio ratio-16x9 mb-4">
+      <!-- Replace the URL below with your real YouTube video link -->
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID_HERE" 
+              title="YouTube video" allowfullscreen></iframe>
+    </div>
+
+    <p class="text-center">
+      Visit our full channel: 
+      <a href="https://www.youtube.com/@cryptorylman" target="_blank">YouTube - Cryptorylman</a>
+    </p>
+</div>
+
+<!-- ABOUT -->
+<div id="about" class="container">
+    <h2 class="section-title">About Cryptorylman</h2>
+    <p>
+        Cryptorylman is a global crypto media project providing daily news, market
+        updates, educational videos, and insights about blockchain, Web3 and the upcoming
+        RylCoin cryptocurrency token.
+    </p>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="container mb-5">
+    <h2 class="section-title">Contact & Socials</h2>
+    <p>Email (future): contact@cryptorylman.com</p>
+
+    <p>Follow us:</p>
+    <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=61583518808662" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/cryptorylman/" target="_blank">Instagram</a></li>
+        <li><a href="https://x.com/Cryptorylman" target="_blank">X (Twitter)</a></li>
+        <li><a href="https://www.youtube.com/@cryptorylman" target="_blank">YouTube</a></li>
+    </ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
